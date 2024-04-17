@@ -58,3 +58,195 @@ div{
 @media only screen and (orientation: landscape) {
     /* this will change the background to light blue when view is landscape */
 }
+
+/* My Style */
+* {
+    font-family: Arial, Verdana, sans-serif;
+    text-align: center;
+  }
+  p {
+    width: 85%;
+    text-align: center;
+    line-height: 1.5;
+  }
+  #errorMessages {
+    font-family: 'RobotoRegular';
+    color: red;
+    text-shadow: 1px 2px 4px #000000;
+    text-align: center;
+  }
+  h1 {
+    color: #ffff;
+    font-family: 'DecovarRegular24TermB';
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 1px 2px 4px black;
+  }
+  h2,
+  h3 {
+    font-family: 'RobotoRegular';
+    font-weight: lighter;
+    font-style: normal;
+    text-shadow: 1px 2px 15px black;
+  }
+  body {
+    background-image: url("https://user-images.githubusercontent.com/121982351/223234200-898e3679-e8f4-4c1e-aba7-a82dd9d5c0ec.jpg");
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #content {
+    overflow: auto;
+    text-align: center;
+  }
+  #nav {
+    background-color: #F37F5A;
+    opacity: .9;
+    margin: 1%;
+    padding: 0.5em 0;
+    overflow: auto;
+  }
+  form {
+    background-color: #F3EEC3;
+    opacity: .9;
+    margin-top: 0.5em;
+    margin: 0 auto;
+    max-width: 350px;
+  }
+  #feature {
+    color: white;
+    text-shadow: 1px 2px 4px #000000;
+    background-color: #F4BC53;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/010/335/315/original/abstract-background-watercolor-brush-stroke-free-png.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 12em;
+    margin-bottom: 1em;
+    margin: 1%;
+    text-align: center;
+  }
+  #footer {
+    bottom: 0;
+    color: #FEF1E9;
+    text-shadow: 1px 2px 4px black;
+    opacity: .9;
+    padding: 1em 0;
+    position: relative;
+    text-align: center;
+    margin-top: 30em;
+    width: 100%;
+  }
+  .column1 {
+    color: #ffffff;
+    text-shadow: 1px 2px 4px #000000;
+    background-color: #A28D7C;
+    width: 31.3%;
+    float: left;
+    margin: 1%
+  }
+  .column2 {
+    color: #ffffff;
+    text-shadow: 1px 2px 4px #000000;
+    background-color: #A28D7C;
+    width: 31.3%;
+    float: left;
+    margin: 1%
+  }
+  .column3 {
+    color: #ffffff;
+    text-shadow: 1px 2px 4px #000000;
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    margin-right: 1%;
+    background-color: #A28D7C;
+  }
+  a {
+    color: #FEF1E9;
+  }
+  li {
+    color: #28190C;
+    display: inline;
+    text-align: left;
+    padding: 0.5em;
+    font-family: 'RobotoRegular';
+    font-weight: lighter;
+    font-style: normal;
+    text-shadow: 1px 2px 15px black;
+  }
+  .article {
+    height: 10em;
+    margin-bottom: 1em;
+  }
+  .layout {
+    background-color: #F4BC53;
+    border-style: solid;
+    height: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-columns: 1fr;
+  }
+  .rec {
+    background-color: #F4BC53;
+    font-family: 'RobotoRegular';
+    font-weight: lighter;
+    font-style: normal;
+    padding: 1em;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  .trailers {
+    background-color: #F4BC53;
+    font-family: 'RobotoRegular';
+    font-weight: lighter;
+    font-style: normal;
+    margin: auto;
+    margin-top: 1em;
+    width: 60%;
+    padding: 10px;
+  }
+  .filmlist {
+    color: black;
+    text-align: left;
+    padding: 5em;
+    margin: 1%
+  }
+  .stills {
+    background-color: black;
+    font-family: 'RobotoRegular';
+    font-weight: lighter;
+    font-style: normal;
+    color: white;
+    margin: auto;
+    margin-top: 1em;
+    width: 45%;
+    padding: 1px;
+    height: 55em;
+  }
+  .httpval {
+    background-color: black;
+    float: left;
+    width: 45%;
+    margin: 1%;
+    ;
+    padding: 10px;
+  }
+  .cssval {
+    background-color: black;
+    width: 45%;
+    float: right;
+    margin: 1%;
+    padding: 10px;
+  }
+  .error_strings {
+    font-family: Verdana;
+    font-size: 10px;
+    color: #660000;
+  }
+  iframe {
+    border-style: solid;
+    border-color: black;
+  }
